@@ -1,0 +1,32 @@
+{
+  "name": "1846uf_ap_estefania_manjon",
+  "version": "1.0.0",
+  "description": "Proyecto de API con NodeJS y Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EManjonG/examen_node.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "API"
+  ],
+  "author": "Estefania Manjon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EManjonG/examen_node.git/issues"
+  },
+  "homepage": "https://github.com/EManjonG/examen_node.git#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
